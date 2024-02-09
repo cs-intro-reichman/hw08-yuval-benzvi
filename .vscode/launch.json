@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "RuniFi",
+            "request": "launch",
+            "mainClass": "RuniFi",
+            "projectName": "hw08-yuval-benzvi_7515f9e7"
+        },
+        {
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node",
+            "args": "two  "
+        }
+    ]
+}
